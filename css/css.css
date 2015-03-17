@@ -1,0 +1,190 @@
+/*===============BODY==================================================================*/
+body {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background: #9fcbb6;
+}
+
+/*===main box where all the tiles are housed==*/
+.tiles_home {
+    width: 100%;
+    height: 100%;
+    margin: 15% auto;
+}
+
+/*===box dimensions for individual info tiles=====*/
+.box {
+    float: left;
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*header including section for project descript and logo*/
+header {
+    width: 100%;
+    max-height: 700px;
+    height: 350px;
+    border-radius: 0 0px 0 90px;
+    background: whitesmoke;
+}
+
+section {
+    max-width: 90%;
+    font-size: 12px;
+    height: 50%;
+    margin: -200px auto;
+
+}
+
+.tiles_home {
+    width: 100%;
+
+
+}
+
+.descript {
+    position: relative;
+    top: 15px;
+    left: 60px;
+    max-width: 72%;
+    height: 22%;
+    background: #57a097;
+    border-radius: 90px 0px 90px 0px;
+
+}
+
+img[alt="usability"] {
+    left: -20%;
+    position: relative;
+    top: -40px;
+    max-width: 54%;
+    width: 150%;
+    background: #cd5b48;
+    border-radius: 0px 90px 0px 90px;
+
+}
+
+img[alt="logo"] {
+    max-width: 100%;
+    opacity: .6;
+}
+
+img[alt="testlink"] {
+    max-width: 16%;
+    position: relative;
+    top: 10px;
+    left: 5px;
+
+}
+
+img[alt="resultslink"] {
+
+    max-width: 24%;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+img[alt="1flat"], img[alt="2flat"], img[alt="3flat"], img[alt="4flat"], img[alt="5flat"], img[alt="6flat"] {
+
+
+    max-width: 75%;
+    max-height: 100%;
+    float: right;
+}
+
+#logo {
+    margin: -25px auto;
+    width: 35%;
+
+}
+
+/*===individual tile color and info===*/
+#tile_1 {
+    background: #00d786;
+}
+
+#tile_2 {
+    background: #aff3f6;
+}
+
+#tile_3 {
+
+    border-radius: 0 0px 0 0px;
+    background: #a0856c;
+}
+
+#tile_4 {
+    background: #85a024;
+}
+
+#tile_5 {
+    background: #57a097;
+}
+
+#tile_6 {
+    background: #f26c5b;
+}
+
+/*===Tile content====*/
+p {
+    font-family: 'Tahoma';
+    overflow: hidden;
+    text-indent: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding-top: 50px;
+    font-style: italic;
+
+}
+
+/*===Footer===*/
+footer {
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+
+}
+
+h2 {
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    background: grey;
+    color: whitesmoke;
+    border-radius: 0 400px 0 0px;
+
+}
+
+#tile_1:hover
+{
+   /* background: url("../images/testlinklb.png");*/
+    background: #f26c5b;
+}
+#tile_2:hover
+{
+    background: #85a024;
+}
+#tile_3:hover
+{
+    background: #57a097;
+}
+#tile_4:hover
+{
+    background: #aff3f6;
+}
+#tile_5:hover
+{
+    background: #a0856c;
+}
+#tile_6:hover
+{
+    background: #00d786;
+}
